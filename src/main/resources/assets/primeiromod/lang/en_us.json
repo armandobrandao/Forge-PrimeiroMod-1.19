@@ -1,6 +1,8 @@
 {
   "item.primeiromod.ruby": "Ruby",
-  "item.primeiromod.raw_zircon": "Raw Zircon",
+  "item.primeiromod.raw_aluminium": "Raw Aluminium",
+  "item.primeiromod.aluminium": "Aluminium Ingot",
+
 
   "itemGroup.primeiromodtab": "Primeiro Mod"
 }

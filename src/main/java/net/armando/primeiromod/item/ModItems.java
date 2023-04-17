@@ -13,7 +13,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PrimeiroMod_TAB)));
-    public static final RegistryObject<Item> RAW_Zircon = ITEMS.register("raw_zircon",
+    public static final RegistryObject<Item> RAW_ALUMINIUM = ITEMS.register("raw_aluminium",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PrimeiroMod_TAB)));
+    public static final RegistryObject<Item> ALUMINIUM = ITEMS.register("aluminium",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PrimeiroMod_TAB)));
 
     public static void register(IEventBus eventBus) {

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "primeiromod:item/raw_zircon"
+    "layer0": "primeiromod:item/raw_aluminium"
   }
 }
