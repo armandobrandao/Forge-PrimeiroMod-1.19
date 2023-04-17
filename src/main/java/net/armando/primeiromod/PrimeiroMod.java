@@ -1,6 +1,7 @@
 package net.armando.primeiromod;
 
 import com.mojang.logging.LogUtils;
+import net.armando.primeiromod.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -18,6 +19,8 @@ public class PrimeiroMod {
 
     public PrimeiroMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
