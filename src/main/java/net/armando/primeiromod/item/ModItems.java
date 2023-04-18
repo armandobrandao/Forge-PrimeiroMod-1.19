@@ -1,6 +1,7 @@
 package net.armando.primeiromod.item;
 
 import net.armando.primeiromod.PrimeiroMod;
+import net.armando.primeiromod.item.custom.EightBallItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -17,6 +18,9 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PrimeiroMod_TAB)));
     public static final RegistryObject<Item> ALUMINIUM = ITEMS.register("aluminium",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PrimeiroMod_TAB)));
+
+    public static final RegistryObject<Item> EIGHT_BALL = ITEMS.register("eight_ball",
+            () -> new EightBallItem(new Item.Properties().tab(ModCreativeModeTab.PrimeiroMod_TAB).stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
