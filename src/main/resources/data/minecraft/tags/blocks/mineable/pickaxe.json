@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "primeiromod:aluminium_ore",
+    "primeiromod:aluminium_block",
+    "primeiromod:deepslate_aluminium_ore"
+  ]
+}
