@@ -6,6 +6,8 @@
   "block.primeiromod.aluminium_block": "Block of Aluminium",
   "block.primeiromod.aluminium_ore": "Aluminium Ore",
   "block.primeiromod.deepslate_aluminium_ore": "Deepslate Aluminium Ore",
+  "block.primeiromod.endstone_ruby_ore": "Endstone Ruby Ore",
+  "block.primeiromod.ruby_block": "Block of Ruby",
 
   "itemGroup.primeiromodtab": "Primeiro Mod"
 }

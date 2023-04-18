@@ -3,6 +3,7 @@
   "values": [
     "primeiromod:aluminium_ore",
     "primeiromod:aluminium_block",
-    "primeiromod:deepslate_aluminium_ore"
+    "primeiromod:deepslate_aluminium_ore",
+    "primeiromod:endstone_ruby_ore"
   ]
 }
