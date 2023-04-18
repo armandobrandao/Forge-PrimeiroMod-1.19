@@ -3,6 +3,9 @@
   "item.primeiromod.raw_aluminium": "Raw Aluminium",
   "item.primeiromod.aluminium": "Aluminium Ingot",
 
+  "block.primeiromod.aluminium_block": "Block of Aluminium",
+  "block.primeiromod.aluminium_ore": "Aluminium Ore",
+  "block.primeiromod.deepslate_aluminium_ore": "Deepslate Aluminium Ore",
 
   "itemGroup.primeiromodtab": "Primeiro Mod"
 }
